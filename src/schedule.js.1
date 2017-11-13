@@ -1,0 +1,22 @@
+/**
+ * @api {put} /schedule/ Получить расписание
+ * @apiVersion 0.0.1
+ * @apiName schedule
+ * @apiGroup schedule
+ * @apiPermission none
+ *
+ * @apiParam {Object}       params                          входные данные.
+ *
+ * @apiSuccess {Array}      schedule                        массив записей
+ * @apiSuccess {Number}     schedule.id                     id записи
+ * @apiSuccess {Number}     schedule.isMyRecord             записан ли текущий пациент на этот прием
+ * @apiSuccess {String}     schedule.date                   дата и время приема
+ * @apiSuccess {Number}     schedule.HalfDay                деление на утро и вечер
+ * @apiSuccess {Number}     schedule.project_id             id поликлинники     -> детали из справочника
+ * @apiSuccess {Number}     schedule.doctor_id              id врача            -> детали из справочника
+ * @apiSuccess {Number}     schedule.specialization_id      id специальности    -> детали из справочника
+ * @apiSuccess {Array}      schedule.services_ids           массив возможных услуг
+ * @apiSuccess {Number}     schedule.services_ids.id        id услуги           -> детали из справочника
+ * @apiSuccess {Number}     schedule.referral_id            id направления
+ * 
+ */

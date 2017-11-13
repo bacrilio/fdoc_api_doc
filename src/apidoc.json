@@ -1,0 +1,18 @@
+{
+  "name": "fdoctor - Семейный доктор",
+  "version": "0.0.1",
+  "description": "АПИ для мобильного приложения",
+  "title": "fdoctor - Семейный доктор",
+  "url" : "http://host/v1",
+  "sampleUrl": "",
+  "header": null,
+  "header1": {
+    "title": "Общее",
+    "filename": "header.md"
+  },
+  "footer": null,
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}
