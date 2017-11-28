@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "АПИ для мобильного приложения",
   "title": "fdoctor - Семейный доктор",
-  "url" : "http://host/v1",
-  "sampleUrl": "",
+  "url" : "https://my.fdoctor.ru/api-gate",
+  "sampleUrl": "https://my.fdoctor.ru/api-gate",
   "header": null,
   "header1": {
     "title": "Общее",
