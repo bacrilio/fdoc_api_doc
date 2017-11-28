@@ -6,7 +6,7 @@
  * @apiPermission none
  * @apiDescription Без передачи списка айдишников докторов возвращяет базовые данные по всем докторам, при передаче списка возвращает полные данные для переданных айдишников
  * 
- * @apiParam {String='fA$@DQ|yFl3Y4ngNuEKaf#7j'}        token
+ * @apiParam {String}       token
  * @apiParam {String}       url
  * @apiParam {String[]}     [ids]                          Массив айдишников докторов
  *
@@ -40,7 +40,7 @@
  * @apiPermission none
  * @apiDescription метод существует
  *
- * @apiParam {String='fA$@DQ|yFl3Y4ngNuEKaf#7j'}        token
+ * @apiParam {String}        token
  * @apiParam {String='user/schedule/specializations'}   url
  * 
  * @apiSuccess {Object[]}   list        Массив с данными по специализациям      
@@ -50,13 +50,13 @@
  */
 
  /**
- * @api {get} / Загрузка справочника достижений
+ * @api {post} / Загрузка справочника достижений
  * @apiVersion 0.0.1
  * @apiName GetAchievements
  * @apiGroup Directory
  * @apiPermission none
  * 
- * @apiParam {String='fA$@DQ|yFl3Y4ngNuEKaf#7j'}        token
+ * @apiParam {String}   token
  * @apiParam {String}   url
  *
  * @apiSuccess {Object[]}   list                Массив с данными по достижениям      
